@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Green Valley</title>
+</head>
+<body>
+	
+	<header class="page-header">
+		<div class="page-header__inner">
+			<a href="" class="site-logo"><img src="" alt=""></a>
+			<nav class="main-nav">
+				<div class="main-nav__menu-toggler"></div>
+				<ul class="main-nav__list">
+					<li class="main-nav__item  main-nav__item--active"><a href="" class="main-nav__link"> Пункт 01</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link"> Пункт 02</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link"> Пункт 03</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link"> Пункт 04</a></li>
+				</ul>
+			</nav>
+			<div class="short-contacts"><a href="tel" class="short-contact__phone"></a><span class="short-contact__adress"></span></div>
+			<div class="page-header__btn">
+				<a href="" class="btn  btn--icon-calendar"></a>
+			</div>
+			</div>
+	</header>
+
+	<section class="main-info">
+		<div class="header_inner">
+			<h1 class="header_inner__title"></h1>
+			<p class="header_inner__price"></p></div>
+		<div class="wrap-info">
+			<div class="main-text">
+				<div class="main-text__inner">
+					<div class="about">
+						<h2 class="about__title"></h2>
+						<p class="about__text"></p>
+					</div>
+					<div class="facilities">
+						<div class="facilities__inner">
+							<h2 class="facilities__title"></h2>
+							<ul class="facilities-list">
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+								<li class="facilities-list__item"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="price-includes">
+						<div class="price-includes__inner">
+							<h2 class="price-includes__title"></h2>
+							<ul class="price-includes__list">
+								<li class="price-includes__item"></li>
+								<li class="price-includes__item"></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="owl-carousel">
+				<div class="owl-stage">
+					<div class="owl-item"></div>
+					<img src="" alt="" class="owl-stage__image">
+					<div class="owl-item"></div>
+					<img src="" alt="" class="owl-stage__image">
+					<div class="owl-item"></div>
+					<img src="" alt="" class="owl-stage__image">
+				</div>
+				<div class="owl-controls">
+					<div class="owl-nav">
+						<div class="owl-prew"></div>
+						<div class="owl-next"></div>
+						<div class="owl-zoom"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="booking-wrap">
+			<div class="booking-wrap__inner">
+				<div class="booking-btn"><a href="" class="btn  btn--icon-calendar"></a></div>
+				<p class="price"></p>
+			</div>
+		</div>
+	</section>
+
+	<section class="room-cards">
+		<div class="room-cards__inner">
+			<ul class="room-cards__list">
+				<li class="room-cards__item">
+					<div class="item-wrap">
+						<div class="item-wrap__image">
+							<img src="" alt=""></div>
+						<div class="item-wrap_text">
+							<p class="item-wrap_text__title"></p>
+							<p class="price"></p>
+						</div>
+					</div>
+				</li>
+				<li class="room-cards__item">
+					<div class="item-wrap">
+						<div class="item-wrap__image">
+							<img src="" alt=""></div>
+						<div class="item-wrap_text">
+							<p class="item-wrap_text__title"></p>
+							<p class="price"></p>
+						</div>
+					</div>
+				</li>
+				<li class="room-cards__item">
+					<div class="item-wrap">
+						<div class="item-wrap__image">
+							<img src="" alt=""></div>
+							<div class="item-wrap_text">
+								<p class="item-wrap_text__title"></p>
+								<p class="price"></p>
+							</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<footer class="page-footer">
+			<div class="page-footer__inner">
+				<div class="page-footer__adress">
+					<p class="page-footer-adress-info"><br></p>
+				</div>
+				<div class="page-footer__socials"><a href="" class="site-logo">
+						<img src="" alt="">
+						<ul class="socials-list">
+							<li class="socials-list__item"><a href=""><i></i></a></li>
+							<li class="socials-list__item"><a href=""><i></i></a></li>
+							<li class="socials-list__item"><a href=""><i></i></a></li>
+							<div class="socials-list__cotacts">
+								<p class="socials-list__contacts-info"><br></p>
+							</div>
+						</ul>
+					</a></div>
+			</div>
+		</footer>
