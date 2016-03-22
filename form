@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Green Valley</title>
+</head>
+<body>
+	
+	<header class="page-header">
+		<div class="page-header__inner">
+			<a href="" class="site-logo"><img src="" alt=""></a>
+			<nav class="main-nav">
+				<div class="main-nav__menu-toggler"></div>
+				<ul class="main-nav__list">
+					<li class="main-nav__item  main-nav__item--active"><a href="" class="main-nav__link"> Пункт 01</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link"> Пункт 02</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link"> Пункт 03</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link"> Пункт 04</a></li>
+				</ul>
+			</nav>
+			<div class="short-contacts"><a href="tel" class="short-contact__phone"></a><span class="short-contact__adress"></span></div>
+			<div class="page-header__btn">
+				<a href="" class="btn  btn--icon-calendar"></a>
+			</div>
+			</div>
+	</header>
+
+	<section class="booking-info">
+		<div class="booking-info__inner">
+			<h1 class="booking-info__title"></h1>
+			<span class="booking-info__text"></span>
+		</div>
+	</section>
+	<section class="bookig-steps">
+		<div class="step1">
+			<div class="step1__inner">
+				<small class="step1__number"></small>
+				<h2 class="step1__name"></h2>
+				<div class="dates">
+					<div class="dates__inner">
+						<div class="entry-date">
+							<p class="entry-date__title"></p>
+							<form action="" class="entry-date__form">
+								<input type="text" placeholder="" class="entry-date__date">
+								<input type="text" placeholder="" class="entry-date__date">
+								<input type="text" placeholder="" class="entry-date__date">
+							</form>
+						</div>
+						<div class="depart-date">
+							<p class="depart-date__title"></p>
+							<form action="" class="depart-date__form">
+								<input type="text" placeholder="" class="depart-date__date">
+								<input type="text" placeholder="" class="depart-date__date">
+								<input type="text" placeholder="" class="depart-date__date">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="step2">
+			<div class="step2__inner">
+				<small class="step2__number"></small>
+				<h2 class="step2__name"></h2>
+				<div class="residence-type">
+					<div class="residence-type__inner">
+						<div class="hotel">
+							<p class="hotel__title"></p>
+							<div class="hotel-item"><i class="hotel-item__icon"></i></div>
+						</div>
+						<div class="cottage">
+							<p class="cottage__title"></p>
+							<div class="cottage-item"><i class="cottage-item__icon"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="step3">
+			<div class="step3__inner">
+				<small class="step3__number"></small>
+				<h2 class="step3__name"></h2>
+				<div class="cottege-type">
+					<div class="cottege-type__inner">
+							<ul class="cottege-type__list">
+								<li class="cottege-type__item">
+									<div class="cottege-type__item-name">
+										<p><br></p>
+									</div>
+								</li>
+								<li class="cottege-type__item">
+									<div class="cottege-type__item-name">
+										<p><br></p>
+									</div>
+								</li>
+								<li class="cottege-type__item">
+									<div class="cottege-type__item-name">
+										<p><br></p>
+									</div>
+								</li>
+								<li class="cottege-type__item">
+									<div class="cottege-type__item-name">
+										<p><br></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="cottege-info">
+							<div class="cottege-info__inner">
+								<ul class="cottege-info__list">
+									<li class="cottege-info__item">
+										<div class="cottege-info__item-name">
+											<i class="cottege-info__icon"></i>
+											<p class="cottege-info__title"></p>
+										</div>
+									</li>
+									<li class="cottege-info__item">
+										<div class="cottege-info__item-name">
+											<i class="cottege-info__icon"></i>
+											<p class="cottege-info__title"></p>
+										</div>
+									</li>
+									<li class="cottege-info__item">
+										<div class="cottege-info__item-name">
+											<i class="cottege-info__icon"></i>
+											<p class="cottege-info__title"></p>
+										</div>
+									</li>
+									<li class="cottege-info__item">
+										<div class="cottege-info__item-name">
+											<i class="cottege-info__icon"></i>
+											<p class="cottege-info__title"></p>
+										</div>
+									</li>
+									<li class="cottege-info__item">
+										<div class="cottege-info__item-name">
+											<i class="cottege-info__icon"></i>
+											<p class="cottege-info__title"></p>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
