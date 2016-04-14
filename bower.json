@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "description": "",
+  "authors": [
+    "Juls Param"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}
