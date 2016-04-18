@@ -3,22 +3,22 @@
   &__title {
     font-family: @serif-caption;
     color: @gray-darker;
-    font-size: @font-size-base + 12px;
+    font-size: 24px;
     margin: 0 0 20px 0;
     font-weight: normal;
 
     @media (min-width: @screen-sm) {
-      font-size: @font-size-base + 16px;
+      font-size: @font-size-h2;
     }
   }
 
   p {
-    font-size: @font-size-base + 2px;
+    font-size: @font-size-small;
     margin-bottom: 35px;
   }
 
   li {
-    font-size: @font-size-base + 2px;
+    font-size: @font-size-base;
     line-height: 1.6;
 
     b {
@@ -35,14 +35,11 @@
     padding-bottom: 30px;
   }
 
-  &__cost {
+  &__price {
     text-transform: uppercase;
     color: @gray-darker;
     margin: 25px 0 0 0;
     font-weight: bold;
 
-    span {
-      color: @orange;
-    }
   }
 }

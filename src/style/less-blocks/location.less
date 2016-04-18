@@ -1,0 +1,76 @@
+.location {
+
+  color: @gray-darker;
+  margin-bottom: 70px;
+
+  &__title {
+    font-size: 24px;
+    font-family: @serif-caption;
+    margin-bottom: 35px;
+    font-weight: normal;
+
+    @media (min-width: @screen-lg) {
+      font-size: @font-size-h1;
+    }
+  }
+}
+
+.transport {
+  &__title {
+    font-size: @font-size-base;
+    text-transform: uppercase;
+    line-height: 24px;
+    position: relative;
+    margin-bottom: 5px;
+    padding-top: 40px;
+    position: relative;
+
+    &:before {
+    content: '';
+    width: 50px;
+    height: 29px;
+    background-image: url(../img/location__bus-icon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+    &--train:before {
+      width: 58px;
+      height: 26px;
+      top: 1px;
+      background-image: url(../img/location__train-icon.png);
+    }
+  }
+
+  &__inner {
+
+    
+
+    @media (min-width: @screen-lg) {
+      text-align: left;
+    }
+  }
+
+    &__text{
+    font-size: @font-size-base;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0px;
+    }
+
+    &__text-right{
+    font-size: @font-size-base;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0px;
+    padding-left: 30px;
+  }
+}
+
+.col-width
+{
+  width: 415px;
+}

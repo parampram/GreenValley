@@ -1,11 +1,12 @@
 $(document).ready(function() {
   
   $("#carousel").owlCarousel();
+ 
+  $("#owl-example").owlCarousel();
+ 
+});
 
 
-  
-
-  });
 
 
 var toggler = document.getElementById('toggler');
