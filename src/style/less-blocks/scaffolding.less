@@ -14,10 +14,28 @@ html {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-h1
+h1,
+ {
+  font-size: @font-size-h1;
+  line-height: 42px;
+  font-family: @serif-caption;
+  color: @gray-darker;
+  font-weight: normal;
+}
 
+h2,
 {
-	
+  font-size: 26px;
+  line-height: normal;
+  font-family: 'PT Serif Caption';
+  color: #191919;
+  font-weight: normal;
+}
+@media (min-width: 768px) {
+  h2,
+{
+    font-size: 30px;
+  }
 }
 
 body {
@@ -30,8 +48,8 @@ body {
   background-color: @body-bg;
 }
 
-
-img {
+ 
+ img { 
   max-width: 100%;
   height: auto;
   vertical-align: middle;

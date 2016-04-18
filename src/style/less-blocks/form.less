@@ -1,0 +1,50 @@
+.booking {
+  padding: 65px 45px;
+  text-align: center;
+  border-top: 1px solid @gray-light;
+
+  &__inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__contant {
+    width: 100%%;
+
+    @media (min-width: @screen-sm) {
+      width: 50%;
+      }
+
+    @media (min-width: @screen-lg) {
+      width: 33%;
+      }
+  }
+
+  &__title {
+    font-size: @font-size-base + 12px;
+    font-family: @serif-caption;
+    color: @gray-darker;
+    margin-top: 0;
+    font-weight: normal;
+
+    @media (min-width: @screen-lg) {
+      font-size: @font-size-base + 16px;
+    }
+  }
+
+  &__information {
+    font-size: @font-size-base + 2px;
+    line-height: 1.5;
+    margin: 0;
+
+    b {
+      color: @orange;
+    }
+  }
+}

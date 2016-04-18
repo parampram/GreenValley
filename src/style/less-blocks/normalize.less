@@ -8,6 +8,8 @@
 
 html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; 
 }
 
 /**
@@ -138,11 +140,13 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
-  font-family: @serif-caption;
+h1,
+ {
   font-size: @font-size-h1;
-  padding: 0;
-  margin: 0;
+  line-height: 42px;
+  font-family: @serif-caption;
+  color: @gray-darker;
+  font-weight: normal;
 }
 
 /**
@@ -191,6 +195,7 @@ sub {
 
 img {
   border: 0;
+
 }
 
 /**

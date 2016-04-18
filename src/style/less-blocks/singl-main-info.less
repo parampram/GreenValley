@@ -1,0 +1,36 @@
+.main-info {
+  border-top: 1px solid @gray-light;
+  padding: 40px 0 5px;
+
+  &__title {
+    font-size: @font-size-h3;
+    font-family: @serif-caption;
+    font-weight: normal;
+    color: @gray-darker;
+    margin: 0;
+    line-height: 1.1;
+
+    @media (min-width: @screen-sm) {
+      font-size: @font-size-h2;
+    }
+
+    @media (min-width: @screen-lg) {
+      font-size: @font-size-h1;;
+    }
+  }
+
+  &__cost {
+    text-transform: uppercase;
+    color: @gray-darker;
+    margin: 0 0 25px 0;
+    font-weight: bold;
+
+    span {
+      color: @orange;
+    }
+  }
+}
+
+.price{
+  font-weight: 500;
+}

@@ -20,6 +20,10 @@ const path = require('path');
 const csscomb = require('gulp-csscomb'); 
 const lessReporter = require('gulp-less-reporter');
 const streamqueue = require('streamqueue');
+const rigger = require('gulp-rigger');
+const size = require('gulp-size');
+
+
 const reload = browserSync.reload;
 
 
@@ -27,14 +31,13 @@ const pathProj = {
       build: {
         html: 'build/',
         js: 'build/js/',
-        jsMainFile: 'main.js',
         css: 'build/css/',
         img: 'build/img/',
         fonts: 'build/fonts/'
       },
       src: { 
         html: 'src/html/**/*.html', 
-        js: 'src/js/**/main.js',
+        js: 'src/js/**.js',
         style: 'src/style/**/main.less',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
@@ -116,7 +119,15 @@ gulp.task('clean', function () {
 //Сборка и оптимизация JS
 
 gulp.task('js', function () {
-     gulp.src(pathProj.src.js) 
+gulp.src(pathProj.src.js)
+    .pipe(fileinclude({
+      prefix: '@@',
+      basepath: '@file'
+    }))
+    .pipe(gulp.dest(pathProj.build.js));
+});
+
+    /*gulp.src(pathProj.src.js) 
         .pipe(concat(pathProj.build.jsMainFile))
         .pipe(sourcemaps.init()) 
         .pipe(uglify()) 
@@ -124,6 +135,8 @@ gulp.task('js', function () {
         .pipe(gulp.dest(pathProj.build.js)) 
         .pipe(reload({stream: true}));
 });
+*/
+
 
 // Копирование шрифтов
 gulp.task('fonts', function() {
