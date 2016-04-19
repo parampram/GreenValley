@@ -24,9 +24,10 @@
     </div>
   </div>
 
-          <div class="container">
+      
           <form action="" class="main-form" id="mainform">        
             <section class="rest-date align-center">
+              <div class="container">
                <div class="rest-date__info">
                   <p class="step">Шаг 1</p>
                   <h1 class="rest-date__title">Дата отдыха</h1>
@@ -49,32 +50,35 @@
                     </div>
                   </div>
                 </div>
+                </div>
             </section>
 
-            <section class="location">
-               <div class="container">
-               <p class="step">Шаг 2</p>
-                <h2 class="location__title">Место проживания</h2>
-                <div class="row">
-                  <div class="col-xs-12 col-lg-2 align-center">
-                    <ul class="location__list">
-                      <li class="location__item">
-                        <label class="location__choise">
-                          <input type="radio" name="locations-type" checked>
-                          <span  class="location__item-name">Отель</span>
-                        </label>
-                      </li>
-                      <li class="location__item">
-                        <label class="location__choise">
-                          <input type="radio" name="location-type">
-                          <span  class="location__item-name">Коттедж</span>
-                        </label>
-                      </li>
-                    </ul>
+            <section class="select-location">
+               <div class="container  select-location__inner">
+                 <p class="step">Шаг 2</p>
+                  <h2 class="select-location__title">Место проживания</h2>
+                  
+                  <div class="row justify-center">
+                    <div class="col-xs-12 col-lg-4 align-center">
+                      
+                      <ul class="select-location__list">
+                        <li class="select-location__item">
+                          <label class="select-location__choise">
+                            <input type="radio" name="select-location-type" checked>
+                            <span  class="select-location__item-name">Отель</span>
+                          </label>
+                        </li>
+                        <li class="select-location__item">
+                          <label class="select-location__choise">
+                            <input type="radio" name="select-location-type">
+                            <span  class="select-location__item-name">Коттедж</span>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
-               </div> 
-            </section>
+                 </div> 
+              </section>
 
 		
 		<section class="cottege-type">
@@ -241,7 +245,6 @@
   </div>
 </section>
 </form>
-</div>
 </article>
 
 @@include('html-blocks/page-footer.html')

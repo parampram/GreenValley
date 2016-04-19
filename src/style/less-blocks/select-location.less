@@ -1,0 +1,99 @@
+.select-location {
+  width: 100%;
+  text-align: center;
+
+  &__inner{
+    padding-top: 40px;
+    padding-bottom: 45px;
+    @media (min-width: @screen-sm) {
+    padding-top: 45px;
+    padding-bottom: 50px;
+    }
+  }
+
+  &__title{
+    margin: 0 0 20px;
+    font-family: @serif-caption;
+    color: @gray-darker;
+    font-weight: normal;
+    font-size: @font-size-h2;
+  }
+
+  &__list{
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 1px solid @gray-lighter;
+    font-size: 14px;
+    font-weight: 400;
+    height: 160px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  &__list:after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 70%;
+    background-color: @gray-light;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+  &__item{
+    width: 180px;
+    text-transform: uppercase;
+    position: relative;
+
+    &:first-child .select-location__item-name:after{
+      width: 82px;
+      height: 65px;
+      left: 50%;
+      background: url(../img/form-hotel.png) no-repeat;
+    }
+    &:last-child .select-location__item-name:after{
+      width:82px;
+      height: 65px;
+      left: 50%;
+      background: url(../img/form-cottage.png) no-repeat;
+    }
+  }
+  &__choise{
+    display: block;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    input[type="radio"]{
+      display: none;
+      &:checked + .select-location__item-name:after{
+        opacity: 1;
+      }
+      &:checked + .select-location__item-name:before{
+        content: "";
+        display: block;
+        width: 17px;
+        height: 12px;
+        background: url(../img/form-check.png) no-repeat;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 130px;
+      }
+    }
+  }
+  &__item-name{
+    margin-top: 20px;
+  }
+  &__item-name:after{
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    top:50px;
+    opacity: .4;
+    transition: opacity .5s ease;
+  }
+}

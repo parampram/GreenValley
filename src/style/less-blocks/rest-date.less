@@ -1,6 +1,7 @@
 .rest-date {
   padding: 50px 0;
   background-color: @gray-lighter;
+  width: 100%;
   text-align: center;
 
   &__info {
@@ -11,7 +12,7 @@
     font-family: @serif-caption;
     color: @gray-darker;
     font-weight: normal;
-    font-size: 26px;
+    font-size: @font-size-h1;
     margin: 0 0 30px 0;
 
     @media (min-width: @screen-lg) {
@@ -36,9 +37,10 @@
     p {
       text-transform: uppercase;
       position: absolute;
-      bottom: 30px;
+      bottom: 40px;
       left: 0;
       right: 0;
+      font-weight: 400;
       font-size: @font-size-small;
     }
 
