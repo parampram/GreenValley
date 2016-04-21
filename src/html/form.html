@@ -82,32 +82,33 @@
 
 		
 		<section class="cottege-type">
-			<div class="container">
-          <small class="step">Шаг 3</small>
-            <h2 class="cottage-type__title">Тип коттеджа</h2><div class="row">
-              <div class="col-xs-12 col-lg-8 align-center"> 
+			<div class="container-fluid">
+          <p class="step">Шаг 3</p>
+            <h2 class="cottege-type__title">Тип коттеджа</h2>
+              <div class="row justify-center">
+                <div class="col-xs-12 col-lg-8 align-center"> 
       							<ul class="cottege-type__list">
       									<li class="cottege-type__item">
-      									<input type="radio" name="cottage-type"  class="cottage-type__input"  id="flagman">
-                        <label for="flagman"  class="cottage-type__choise">Флагман</label>
+      									<input type="radio" name="cottege-type"  class="cottege-type__input"  id="flagman">
+                        <label for="flagman"  class="cottege-type__choise">Флагман</label>
                         </li>
                         <li class="cottege-type__item">
-                          <input type="radio" name="cottage-type"  class="cottage-type__input"  id="ozerny">
-                         <label for="ozerny"  class="cottage-type__choise">Озернный</label>
+                          <input type="radio" name="cottege-type"  class="cottege-type__input"  id="ozerny">
+                         <label for="ozerny"  class="cottege-type__choise">Озернный</label>
                         </li>
 
                         <li class="cottege-type__item">
-                          <input type="radio" name="cottage-type"  class="cottage-type__input"  id="olhovka">
-                          <label for="olhovka"  class="cottage-type__choise">Ольховка</label>
+                          <input type="radio" name="cottege-type"  class="cottege-type__input"  id="olhovka">
+                          <label for="olhovka"  class="cottege-type__choise">Ольховка</label>
                         </li>
                         <li class="cottege-type__item">
-                          <input type="radio" name="cottage-type"  class="cottage-type__input"  id="portovy">
-                          <label for="portovy"  class="cottage-type__choise">Портовый</label>
+                          <input type="radio" name="cottege-type"  class="cottege-type__input"  id="portovy">
+                          <label for="portovy"  class="cottege-type__choise">Портовый</label>
                         </li>
                       </ul>
-                      <div class="row">
-                      <div class="hidden-xs col-lg-8 align-center">
-                      <div class="cottege-info"  id="cottge-info--flagman">
+                 </div>
+                    <div class="hidden-xs  col-lg-8  align-center">
+                      <div class="cottege-info"  id="cottege-info--flagman">
                         <ul class="cottege-info__list">
                           <li class="cottege-info__item">Площадь 100м<sup>2</sup></li>
                           <li class="cottege-info__item">3 комнаты</li>
@@ -116,7 +117,7 @@
                           <li class="cottege-info__item">Wi-fi</li>
                         </ul>
                       </div>
-                      <div class="cottege-info"  id="cottge-info--ozerny">
+                      <div class="cottege-info"  id="cottege-info--ozerny">
                         <ul class="cottege-info__list">
                           <li class="cottege-info__item">Площадь 200м<sup>2</sup></li>
                           <li class="cottege-info__item">3 комнаты</li>
@@ -125,7 +126,7 @@
                           <li class="cottege-info__item">Wi-fi</li>
                         </ul>
                       </div>
-                      <div class="cottege-info"  id="cottge-info--olhovka">
+                      <div class="cottege-info"  id="cottege-info--olhovka">
                         <ul class="cottege-info__list">
                           <li class="cottege-info__item">Площадь 300м<sup>2</sup></li>
                           <li class="cottege-info__item">3 комнаты</li>
@@ -134,7 +135,7 @@
                           <li class="cottege-info__item">Wi-fi</li>
                         </ul>
                       </div>
-                      <div class="cottege-info"  id="cottge-info--portovy">
+                      <div class="cottege-info"  id="cottege-info--portovy">
                         <ul class="cottege-info__list">
                           <li class="cottege-info__item">Площадь 400м<sup>2</sup></li>
                           <li class="cottege-info__item">3 комнаты</li>
@@ -143,19 +144,16 @@
                           <li class="cottege-info__item">Wi-fi</li>
                         </ul>
                       </div>
-                      </div>
-                      </div>
-
                     </div>
-                  </div>
-                </div>
-              </section>
+               </div>
+            </div>
+        </section>
 
 			<section class="personal-info">
-				<div class="container">
-          <small class="step">Шаг 4</small>
+				<div class="container-fluid">
+          <p class="step">Шаг 4</p>
               <h2 class="personal-info__title">Персональная информация</h2>
-              <div class="row">
+              <div class="row  justify-center">
                 <div class="col-xs-12 col-lg-8 align-center"> 
         					<div class="personal-info__form">
         						<div class="personal-info__input">
@@ -177,79 +175,81 @@
     			      </div>
              </div>
            </section>
+           <section class="payment">
+                 <div class="payment__wrapper">
+                   <p class="payment__step step">шаг 5</p>
+                   <h3 class="payment__title">Способ оплаты</h3>
+                   <div class="payment__form-wrapper">
+                     <div class="payment__form ">
+                       <div class="type-of-payment">
+                         <div class="payment-on-place">
+                           <div class="payment-on-place__explanation">
+                             <label for="payment-on-place">
+                               <input type="radio" id="paymentOnPlace" name="type-of-payment">
+                               <span class="payment-on-place__choose">по приезду</span>
+                             </label>
+                             <p class="payment-on-place__hint">Вы можете произвести оплату по факту заселения.</p>
+                           </div>  
+                         </div>
+                         <div class="payment-now">
+                           <div class="payment-now__explanation">
+                             <label for="payment-now">
+                               <input type="radio" id="paymentNow" checked name="type-of-payment">
+                               <span class="payment-now__choose">сейчас</span>
+                             </label>
+                             <p class="payment-now__hint">Прямо сейчас вы можете произвести оплату с помощью банковской карты.</p>
+                           </div>  
+                           <div class="payment-now__form">
+                             <div class="payment-now__col1">
+                               <label for="cardNumber">номер карты</label>
+                               <input type="text" name="cardNumber" id="cardNumber" placeholder="0000 0000 0000 0000"> 
+                               <span class="personal-data__success"></span>  
+                               <span class="personal-data__error"><span></span><span></span></span>  
+                               <label for="ownerLastName">фамилия владельца карты</label>  
+                               <input type="text" name="ownerLastName" id="ownerLastName" placeholder="vladimir vladimirovich">
+                               <span class="personal-data__success"></span>  
+                               <span class="personal-data__error"><span></span><span></span></span>  
+                             </div>
+                             <div class="payment-now__col2">  
+                               <label for="cvv">код cvv <i class="fa fa-question-circle"></i></label>      
+                               <input type="text" name="cvv" id="cvv" placeholder="123">
+                               <span class="personal-data__success"></span>  
+                               <span class="personal-data__error"><span></span><span></span></span>  
+                               <label for="validThru">действует до</label>
+                               <input type="text" name="validThru" id="validThru" placeholder="01/2018">
+                               <span class="personal-data__success"></span>  
+                               <span class="personal-data__error"><span></span><span></span></span>  
+                             </div>  
+                           </div>
+                         </div>
+                       </div>
+                       <div class="sum-for-payment">
+                         <p class="sum-for-payment__title">к оплате</p>
+                         <p class="sum-for-payment__sum">-</p>
+                         <p class="sum-for-payment__warning">Пожалуйста, <a href="" class="dashed">выберите дату</a> въезда и выезда, чтобы увидеть сумму к оплате.</p>
+                       </div>
+                     </div>
+                     <div class="payment__btn">
+                       <button class="btn  btn--green  btn--wide"  onclick="check(this.form)" id="submit"> Забронировать
+                       </button>  
+                     </div> 
+                   </div>         
+                 </div>  
+               </section>
 
 
-			<section class="payment">
-				<div class="container">
-          <small class="step">Шаг 5</small>
-            <h2 class="payment__title">Способ оплаты</h2>
-              <div class="row">
-                <div class="col-xs-12 col-lg-8 align-center">
-        
-                <div class="pay">
-      					 
-                 <div class="pay__later">
-                  <label class="pay__choise" for="later">
-                    <input type="radio" name="pay" id="later">
-                    <h4 class="pay__title">По приезду</h4>
-                    <p class="pay__text">Вы можете произвести оплату по факту заселения</p>
-                  </label>
-                </div>
-                <div class="pay__now">
-                  <label class="pay__choise" for="now">
-                    <input type="radio" name="pay" id="now" cheked>
-                    <h4 class="pay__title">Сейчас</h4>
-                    <p class="pay__text">Прямо сейчас вы можете произвести оплату с помощью банковской карты.</p>
-                  </label>
 
-
-      					<div class="card-info">
-                  <div class="card-info__wrapper-common">
-      							<label class="card-info__label">
-                      <span>Номер карты</span>
-                      <input type="text" class="card-info__input" name="card-number" placeholder="0000-0000-0000-0000">
-                    </label>
-                    <label class="card-info__label">
-                      <span>Фамилия владельца карты</span>
-                      <input type="text" class="card-info__input" name="card-holder" placeholder="VLADIMIR VLADIMIROV">
-                      </label>
-                  </div>
-
-      						<div class="card-info__wrapper-cvv">
-                    <label class="card-info__label card-info__lable--shot">
-                      <span>Код CVV</span>
-                      <input type="text" class="card-info__input" name="cvv-code" id="cvv-code" placeholder="123">
-                    </label>
-
-                    <label class="card-info__label card-info__lable--shot">
-                      <span>Действует до</span>
-                      <input type="text" class="card-info__input" name="valid-until" placeholder="01/2018">
-                    </label>
-                  </div>
-      			   </div>
-      		  </div>
-         </div>
-
-         <div class="bill">
-            <h3>К оплате</h3>
-              <div class="bill__charge">-</div>
-                <div class="bill__annotation">Пожалуйста, <a href="" class="dashed">выберите дату</a> въезда и выезда, чтобы увидеть сумму к оплате.
-                </div>
-              <div class="payment__button">
-               <button class="btn  btn--green  btn--wide">Забронировать</button>
-              </div>
-          </div>
-
-  	 </div>
-  	</div>
-  </div>
-</section>
 </form>
 </article>
 
 @@include('html-blocks/page-footer.html')
 
-<script src=" " ></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/settings.js"></script>
+  <script src="../js/payment.js"></script>
+
 </body>
 </html>
 
