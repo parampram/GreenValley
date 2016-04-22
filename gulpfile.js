@@ -119,23 +119,19 @@ gulp.task('clean', function () {
 //Сборка и оптимизация JS
 
 gulp.task('js', function () {
-gulp.src(pathProj.src.js)
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: '@file'
-    }))
-    .pipe(gulp.dest(pathProj.build.js));
-});
-
-    /*gulp.src(pathProj.src.js) 
-        .pipe(concat(pathProj.build.jsMainFile))
+     gulp.src(pathProj.src.js) 
         .pipe(sourcemaps.init()) 
-        .pipe(uglify()) 
-        .pipe(sourcemaps.write()) 
+        .pipe(fileinclude({
+         prefix: '@@',
+        basepath: '@file'
+         }))
         .pipe(gulp.dest(pathProj.build.js)) 
+        .pipe(sourcemaps.write('./'))
+        .pipe(gulp.dest(pathProj.build.js))
         .pipe(reload({stream: true}));
 });
-*/
+
+
 
 
 // Копирование шрифтов
